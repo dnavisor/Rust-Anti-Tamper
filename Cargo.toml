@@ -1,0 +1,4 @@
+// Cargo.toml
+
+[dependencies]
+winapi = { version = "0.3", features = ["processthreadsapi", "psapi", "libloaderapi", "wintrust"] }
